@@ -1,0 +1,73 @@
+@media (min-width: 768px) {
+
+/* navegación horizontal */
+
+.navigation{
+display:flex;
+flex-direction:row;
+gap:20px;
+}
+
+#menu{
+display:none;
+}
+
+
+/* layout del main */
+
+main{
+display:grid;
+grid-template-columns: 2fr 1fr;
+gap:20px;
+padding:20px;
+}
+
+
+/* About Me ocupa la columna izquierda */
+
+.about{
+grid-column:1;
+}
+
+
+/* Student Photo columna derecha */
+
+.photo{
+grid-column:2;
+}
+
+
+/* Web Certificate Courses ocupa todo abajo */
+
+.courses{
+grid-column:1 / 3;
+}
+
+
+/* botones */
+
+.buttons{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+}
+
+
+/* cursos */
+
+#courseContainer{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.course{
+width:150px;
+text-align:center;
+padding:10px;
+background:#ddd;
+border-radius:5px;
+}
+
+}
