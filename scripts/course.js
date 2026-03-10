@@ -1,46 +1,86 @@
 const courses = [
 
-{code:"WDD130", subject:"WDD", credits:2, completed:true},
-{code:"WDD131", subject:"WDD", credits:2, completed:true},
-{code:"WDD231", subject:"WDD", credits:2, completed:false},
-{code:"CSE110", subject:"CSE", credits:2, completed:true}
+{
+subject:"WDD",
+number:130,
+credits:3,
+completed:true
+},
+
+{
+subject:"WDD",
+number:131,
+credits:3,
+completed:false
+},
+
+{
+subject:"WDD",
+number:231,
+credits:3,
+completed:false
+},
+
+{
+subject:"CSE",
+number:111,
+credits:3,
+completed:false
+}
 
 ];
 
 const container = document.querySelector("#courseContainer");
 const credits = document.querySelector("#credits");
 
-function displayCourses(list){
+function displayCourses(courseList){
 
-container.innerHTML = "";
+container.innerHTML="";
 
-list.forEach(course => {
+courseList.forEach(course =>{
 
 const div = document.createElement("div");
-div.textContent = course.code;
+
+div.textContent = `${course.subject} ${course.number}`;
+
 div.classList.add("course");
 
 if(course.completed){
+
 div.classList.add("completed");
+
 }
 
 container.appendChild(div);
 
 });
 
-const total = list.reduce((sum, course)=> sum + course.credits,0);
-credits.textContent = "Total credits: " + total;
+const totalCredits = courseList.reduce((sum,course)=> sum + course.credits,0);
+
+credits.textContent = `Total Credits: ${totalCredits}`;
 
 }
 
 displayCourses(courses);
 
-document.querySelector("#all").addEventListener("click", ()=> displayCourses(courses));
+document.querySelector("#all").addEventListener("click", () =>{
 
-document.querySelector("#wdd").addEventListener("click", ()=> {
-displayCourses(courses.filter(c => c.subject === "WDD"));
+displayCourses(courses);
+
 });
 
-document.querySelector("#cse").addEventListener("click", ()=> {
-displayCourses(courses.filter(c => c.subject === "CSE"));
+document.querySelector("#wdd").addEventListener("click", () =>{
+
+const wdd = courses.filter(course => course.subject === "WDD");
+
+displayCourses(wdd);
+
+});
+
+document.querySelector("#cse").addEventListener("click", () =>{
+
+const cse = courses.filter(course => course.subject === "CSE");
+
+displayCourses(cse);
+
 });
