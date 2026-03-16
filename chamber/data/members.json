@@ -1,0 +1,64 @@
+[
+{
+"name": "Bonao Supermarket",
+"address": "Calle Duarte, Bonao",
+"phone": "809-111-1111",
+"website": "https://example.com",
+"image": "supermarket.jpg",
+"membership": 3
+},
+
+{
+"name": "Jimenez Electronics",
+"address": "Plaza Bonao",
+"phone": "809-222-2222",
+"website": "https://example.com",
+"image": "electronics.jpg",
+"membership": 2
+},
+
+{
+"name": "Cafe Central",
+"address": "Centro de Bonao",
+"phone": "809-333-3333",
+"website": "https://example.com",
+"image": "cafe.jpg",
+"membership": 1
+},
+
+{
+"name": "Auto Parts Bonao",
+"address": "Av. Libertad",
+"phone": "809-444-4444",
+"website": "https://example.com",
+"image": "autoparts.jpg",
+"membership": 2
+},
+
+{
+"name": "Bonao Pharmacy",
+"address": "Calle Sanchez",
+"phone": "809-555-5555",
+"website": "https://example.com",
+"image": "pharmacy.jpg",
+"membership": 3
+},
+
+{
+"name": "Tech Solutions",
+"address": "Plaza Central",
+"phone": "809-666-6666",
+"website": "https://example.com",
+"image": "tech.jpeg",
+"membership": 1
+},
+
+{
+"name": "Car Wash Express",
+"address": "Av. Duarte",
+"phone": "809-777-7777",
+"website": "https://example.com",
+"image": "carwash.jpg",
+"membership": 1
+}
+]
