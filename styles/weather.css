@@ -1,0 +1,25 @@
+.card {
+    border: 1px solid #6b8f71;
+    background-color: #f4f7f5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #2f4f4f;
+}
+
+.card #weather-description {
+    text-transform: capitalize;
+    color: #4f6f73;
+}
+
+.card #current-temp {
+    font-size: 2rem;
+    color: #1b4332;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+}
