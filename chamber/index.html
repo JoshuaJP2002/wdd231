@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home</title>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<h1>Bonao Chamber of Commerce</h1>
+
+<button id="menu">☰</button>
+
+<nav>
+<ul class="navigation">
+<li><a href="index.html">Home</a></li>
+<li><a href="directory.html">Directory</a></li>
+<li><a href="#">Join</a></li>
+<li><a href="#">Discover</a></li>
+</ul>
+</nav>
+
+</header>
+
+
+<main>
+
+  <!-- HERO -->
+    <section class="hero">
+    <img src="images/bonao.jpg" alt="City image">
+    <div class="hero-text">
+        <h2>Welcome to Our Chamber</h2>
+        <a href="join.html" class="cta">Join the Chamber</a>
+    </div>
+    </section>
+
+  <!-- EVENTS -->
+    <section class="events">
+    <h2>Current Events</h2>
+    <p>Community fair this weekend!</p>
+    </section>
+
+  <!-- WEATHER -->
+    <section class="weather">
+        <h2>Weather</h2>
+        <p>Temperature: <span id="current-temp"></span></p>
+        <p>Description: <span id="description"></span></p>
+        <img id="weather-icon" src="" alt="weather icon">
+    <div id="forecast"></div>
+    </section>
+
+  <!-- SPOTLIGHT -->
+    <section class="spotlights">
+        <h2>Business Spotlights</h2>
+        <div id="spotlight-container"></div>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+© <span id="year"></span> | Joshua Jimenez | WDD 231
+</p>
+</footer>
+
+</body>
+</html>
