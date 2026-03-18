@@ -69,6 +69,11 @@ color:white;
     height: auto;
 }
 
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .grid{
 display:grid;
 grid-template-columns:1fr;
