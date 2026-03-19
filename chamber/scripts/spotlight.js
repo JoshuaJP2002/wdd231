@@ -5,9 +5,8 @@ async function loadSpotlights() {
   const data = await response.json();
 
 const members = data.filter(m => 
-    m.name === "Tech Solutions" ||
-    m.name === "Caribbean Market" ||
-    m.name === "Digital Agency"
+    m.membership === "gold" ||
+    m.membership === "silver"
 );
 
   const random = members.sort(() => 0.5 - Math.random()).slice(0, 3);
@@ -17,7 +16,7 @@ const members = data.filter(m =>
     card.classList.add("card");
 
     card.innerHTML = `
-      <img src="${member.logo}" alt="${member.name}">
+      <img src="images/${member.logo}" alt="${member.name}">
       <h3>${member.name}</h3>
       <p><strong>Phone:</strong> ${member.phone}</p>
       <p><strong>Address:</strong> ${member.address}</p>

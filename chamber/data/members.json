@@ -64,24 +64,24 @@
 
   {
     "name": "Tech Solutions",
-    "membership": 3,
-    "logo": "images/tech.jpeg",
+    "membership": "gold",
+    "logo": "tech.jpeg",
     "phone": "809-555-1234",
     "address": "Santo Domingo",
     "website": "https://techsolutions.com"
   },
   {
     "name": "Caribbean Market",
-    "membership": 2,
-    "logo": "images/supermarket.jpg",
+    "membership": "silver",
+    "logo": "supermarket.jpg",
     "phone": "809-555-5678",
     "address": "Santiago",
     "website": "https://caribbeanmarket.com"
   },
   {
     "name": "Digital Agency",
-    "membership": 3,
-    "logo": "images/electronics.jpg",
+    "membership": "gold",
+    "logo": "electronics.jpg",
     "phone": "809-555-2222",
     "address": "Punta Cana",
     "website": "https://digitalagency.com"
