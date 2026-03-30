@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Bonao Chamber of Commerce">
+  <meta name="author" content="Joshua Jimenez">
+
+  <title>Join Chamber</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script defer src="scripts/join.js"></script>
+  <script defer src="scripts/menu.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Bonao Chamber of Commerce</h1>
+
+<button id="menu">☰</button>
+
+<nav>
+<ul class="navigation">
+<li><a href="index.html">Home</a></li>
+<li><a href="directory.html">Directory</a></li>
+<li><a href="join.html" class="active">Join</a></li>
+<li><a href="#">Discover</a></li>
+</ul>
+</nav>
+
+</header>
+
+<main>
+
+<section>
+  <h2>Membership Application</h2>
+
+  <form method="get" action="thankyou.html">
+
+    <label>First Name:
+      <input type="text" name="fname" required title="First Name" autocomplete="given-name">
+    </label>
+
+    <label>Last Name:
+      <input type="text" name="lname" required title="Last Name" autocomplete="family-name">
+    </label>
+
+    <label>Organization Title:
+      <input type="text" name="orgtitle" title="Organization Title"
+      autocomplete="organization-title"
+      pattern="[A-Za-z\s\-]{7,}">
+    </label>
+
+    <label>Email:
+      <input type="email" name="email" required title="Email"
+      placeholder="example@email.com" autocomplete="email">
+    </label>
+
+    <label>Phone:
+      <input type="tel" name="phone" required title="Phone"
+      autocomplete="tel">
+    </label>
+
+    <label>Business Name:
+      <input type="text" name="business" required title="Business Name"
+      autocomplete="organization">
+    </label>
+
+    <label>Membership Level:
+      <select name="membership">
+        <option value="np">NP Membership</option>
+        <option value="bronze">Bronze Membership</option>
+        <option value="silver">Silver Membership</option>
+        <option value="gold">Gold Membership</option>
+      </select>
+    </label>
+
+    <label>Business Description:
+      <textarea name="description" title="Business Description"></textarea>
+    </label>
+
+    <input type="hidden" name="timestamp" id="timestamp">
+
+    <input type="submit" value="Apply Now">
+
+  </form>
+</section>
+
+<section class="cards">
+
+  <div class="card">
+    <h3>NP Membership</h3>
+    <a href="#" onclick="openModal('npModal')">More Info</a>
+  </div>
+
+  <div class="card">
+    <h3>Bronze Membership</h3>
+    <a href="#" onclick="openModal('bronzeModal')">More Info</a>
+  </div>
+
+  <div class="card">
+    <h3>Silver Membership</h3>
+    <a href="#" onclick="openModal('silverModal')">More Info</a>
+  </div>
+
+  <div class="card">
+    <h3>Gold Membership</h3>
+    <a href="#" onclick="openModal('goldModal')">More Info</a>
+  </div>
+
+</section>
+
+<!-- MODALS -->
+<dialog id="npModal">
+  <p>Free membership for non-profit organizations.</p>
+  <button onclick="closeModal('npModal')">Close</button>
+</dialog>
+
+<dialog id="bronzeModal">
+  <p>Basic networking events and exposure.</p>
+  <button onclick="closeModal('bronzeModal')">Close</button>
+</dialog>
+
+<dialog id="silverModal">
+  <p>Includes training programs and event discounts.</p>
+  <button onclick="closeModal('silverModal')">Close</button>
+</dialog>
+
+<dialog id="goldModal">
+  <p>All benefits plus advertising and homepage spotlight.</p>
+  <button onclick="closeModal('goldModal')">Close</button>
+</dialog>
+
+</main>
+
+<footer>
+
+<p>Bonao Chamber of Commerce</p>
+<p>Email: info@bonaochamber.com</p>
+<p>Phone: 809-555-1234</p>
+
+<p>
+© <span id="year"></span> | Joshua Jimenez | WDD 231
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>
