@@ -168,6 +168,21 @@ input, select, textarea {
   box-sizing: border-box;
 }
 
+#discover-grid {
+  display: grid;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+  gap: 1rem;
+}
+
+
 input[type="submit"] {
   background-color: #004080;
   color: white;

@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You</title>
+
+  <title>Discover Bonao</title>
+  <meta name="description" content="Discover places of interest in Bonao, Dominican Republic.">
+  <meta name="author" content="Joshua Jimenez">
 
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
 
-  <script defer src="scripts/thankyou.js"></script>
+  <!-- MODULE SCRIPT -->
+  <script type="module" src="scripts/discover.js"></script>
   <script defer src="scripts/menu.js"></script>
 </head>
 
@@ -24,17 +28,20 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="directory.html">Directory</a></li>
       <li><a href="join.html">Join</a></li>
-      <li><a href="discover.html">Discover</a></li>
+      <li><a href="discover.html" class="active">Discover</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
 
-<h2>Thank You!</h2>
-<p>Your application has been submitted successfully.</p>
+  <h2>Discover Bonao</h2>
 
-<div id="result"></div>
+  <!-- VISIT MESSAGE -->
+  <div id="visit-message"></div>
+
+  <!-- GRID CON CARDS -->
+  <section id="discover-grid"></section>
 
 </main>
 
