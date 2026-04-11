@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thank you page">
+  <meta name="author" content="Joshua Jimenez">
+  <title>Thank You</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Thank You!</h1>
+</header>
+
+<main>
+  <section class="thankyou-container">
+    <h2>Thank You!</h2>
+    <p class="success-icon">✔</p>
+    <p>Your message has been sent successfully.</p>
+
+    <div class="user-info">
+      <p><strong>Name:</strong> <span id="name"></span></p>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Message:</strong> <span id="message"></span></p>
+    </div>
+
+    <a href="index.html" class="btn-home">Go Back Home</a>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-section">
+      <h3>Explore DR</h3>
+      <p>Discover the beauty of the Dominican Republic.</p>
+    </div>
+
+    <!-- CENTER -->
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>Email: example@email.com</p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>
+      &copy; <span id="year"></span> Joshua Jimenez |
+      <a href="#">Project Video</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+
+  document.querySelector("#name").textContent = params.get("name");
+  document.querySelector("#email").textContent = params.get("email");
+  document.querySelector("#message").textContent = params.get("message");
+</script>
+
+</body>
+</html>

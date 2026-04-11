@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tourist places in the Dominican Republic">
+  <meta name="author" content="Joshua Jimenez">
+  <title>Explore DR | Places</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Tourist Places</h1>
+</header>
+
+<nav>
+  <button id="menu">☰</button>
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="places.html">Places</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h2>Explore Places</h2>
+  <p id="last-visited"></p>
+  <div id="places-container"></div>
+
+  <!-- MODAL -->
+  <dialog id="dialog">
+    <h2></h2>
+    <p></p>
+    <button>Close</button>
+  </dialog>
+</main>
+
+<footer>
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-section">
+      <h3>Explore DR</h3>
+      <p>Discover the beauty of the Dominican Republic.</p>
+    </div>
+
+    <!-- CENTER -->
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>Email: example@email.com</p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>
+      &copy; <span id="year"></span> Joshua Jimenez |
+      <a href="#">Project Video</a>
+    </p>
+  </div>
+</footer>
+
+<script src="scripts/places.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Playa Rincon",
+    "location": "Samana",
+    "description": "One of the most beautiful beaches in the Dominican Republic with white sand and crystal-clear water.",
+    "image": "playa-rincon.jpg"
+  },
+  {
+    "name": "Salto El Limon",
+    "location": "Samana",
+    "description": "A stunning waterfall surrounded by lush jungle, perfect for hiking and swimming.",
+    "image": "salto-el-limon.jpg"
+  },
+  {
+    "name": "27 Charcos de Damajagua",
+    "location": "Puerto Plata",
+    "description": "A natural attraction with waterfalls where visitors can jump and slide through the rocks.",
+    "image": "27-charcos.jpg"
+  },
+  {
+    "name": "Bahia de las Aguilas",
+    "location": "Pedernales",
+    "description": "A remote and untouched beach known for its clear turquoise waters and natural beauty.",
+    "image": "bahia-aguilas.jpg"
+  },
+  {
+    "name": "Isla Saona",
+    "location": "La Romana",
+    "description": "A tropical island famous for its palm trees, white sand beaches, and clear waters.",
+    "image": "isla-saona.jpg"
+  },
+  {
+    "name": "Cayo Levantado",
+    "location": "Samana",
+    "description": "A small island known for its beautiful beaches and relaxing atmosphere.",
+    "image": "cayo-levantado.jpg"
+  },
+  {
+    "name": "Laguna Dudu",
+    "location": "Rio San Juan",
+    "description": "A freshwater lagoon perfect for swimming and ziplining into the water.",
+    "image": "laguna-dudu.jpg"
+  },
+  {
+    "name": "Pico Duarte",
+    "location": "Central Mountains",
+    "description": "The highest mountain in the Caribbean, ideal for hiking and adventure.",
+    "image": "pico-duarte.jpg"
+  },
+  {
+    "name": "Valle de Constanza",
+    "location": "Constanza",
+    "description": "A beautiful valley known for its cool climate and stunning landscapes.",
+    "image": "constanza.jpg"
+  },
+  {
+    "name": "Teleferico de Puerto Plata",
+    "location": "Puerto Plata",
+    "description": "A cable car that takes visitors to the top of a mountain with amazing views.",
+    "image": "teleferico.jpg"
+  },
+  {
+    "name": "Playa Dorada",
+    "location": "Puerto Plata",
+    "description": "A popular beach with resorts, golden sand, and calm waters.",
+    "image": "playa-dorada.jpg"
+  },
+  {
+    "name": "Playa Fronton",
+    "location": "Samana",
+    "description": "A hidden beach surrounded by cliffs, accessible by boat or hiking.",
+    "image": "playa-fronton.jpg"
+  },
+  {
+    "name": "Parque Nacional Los Haitises",
+    "location": "Samana",
+    "description": "A national park with mangroves, caves, and rich biodiversity.",
+    "image": "haitises.jpg"
+  },
+  {
+    "name": "Dunas de Bani",
+    "location": "Peravia",
+    "description": "Sand dunes that look like a desert, offering a unique landscape.",
+    "image": "dunas-bani.jpg"
+  },
+  {
+    "name": "Playa Coson",
+    "location": "Las Terrenas",
+    "description": "A peaceful beach with soft sand and beautiful sunsets.",
+    "image": "playa-coson.jpg"
+  }
+]
